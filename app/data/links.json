@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/example"
+    },
+    {
+      "label": "XING",
+      "url": "https://www.xing.com/profile/example"
+    },
+    {
+      "label": "Portfolio",
+      "url": "https://myportfolio.example.com"
+    }
+  ]
+}

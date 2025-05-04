@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "title": "Software Engineer at SoftSys AG, Hamburg",
+      "date": {
+        "start": "May 2022",
+        "end": "Present"
+      },
+      "content": "Backend and frontend development of web applications, integration of REST APIs, participation in agile teams.",
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "Vue.js",
+        "REST",
+        "Agile"
+      ],
+      "web": [
+        "https://www.softsys.com/"
+      ]
+    },
+    {
+      "title": "IT Consultant at Networx Solutions, Munich",
+      "date": {
+        "start": "Sep 2019",
+        "end": "Apr 2022"
+      },
+      "content": "Consulting and development of cloud solutions for medium-sized businesses.",
+      "skills": [
+        "Cloud",
+        "Docker",
+        "Kubernetes",
+        "Consulting"
+      ],
+      "web": [
+        "https://www.networx.de/"
+      ]
+    }
+  ]
+}

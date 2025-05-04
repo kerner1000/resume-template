@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Development of a data visualization tool",
+      "content": "Conception and implementation of a modular tool for the visualization of measurement data.",
+      "date": {
+        "start": "2020",
+        "end": "2021"
+      }
+    },
+    {
+      "title": "Optimization of Continuous Integration Processes",
+      "content": "Improvement and automation of deployment processes for microservices.",
+      "date": {
+        "start": "2018",
+        "end": "2019"
+      }
+    }
+  ]
+}

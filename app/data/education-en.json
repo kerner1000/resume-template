@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "title": "MSc Applied Computer Science, University of Munich, Germany",
+      "content": "Specialization in software engineering, data analysis, and cloud architectures.",
+      "date": {
+        "start": "2017",
+        "end": "2019"
+      },
+      "skills": [
+        "Python",
+        "Databases",
+        "Cloud Technologies",
+        "Software Engineering"
+      ],
+      "web": [
+        "https://www.uni-muenchen.de/"
+      ]
+    },
+    {
+      "title": "BSc Computer Science, University of Bremen, Germany",
+      "content": "Final project focused on developing a web-based data visualization platform.",
+      "date": {
+        "start": "2013",
+        "end": "2017"
+      },
+      "skills": [
+        "Java",
+        "JavaScript",
+        "Agile Methods"
+      ],
+      "web": [
+        "https://www.uni-bremen.de/"
+      ]
+    }
+  ]
+}

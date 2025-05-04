@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "title": "Softwareentwickler bei SoftSys AG, Hamburg",
+      "date": {
+        "start": "Mai 2022",
+        "end": "Gegenwart"
+      },
+      "content": "Backend- und Frontend-Entwicklung von Webanwendungen, Integration von REST APIs, Mitarbeit in agilen Teams.",
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "Vue.js",
+        "REST",
+        "Agil"
+      ],
+      "web": [
+        "https://www.softsys.com/"
+      ]
+    },
+    {
+      "title": "IT Consultant bei Networx Solutions, München",
+      "date": {
+        "start": "Sep 2019",
+        "end": "Apr 2022"
+      },
+      "content": "Beratung und Entwicklung von Cloud-Lösungen für mittelständische Unternehmen.",
+      "skills": [
+        "Cloud",
+        "Docker",
+        "Kubernetes",
+        "Beratung"
+      ],
+      "web": [
+        "https://www.networx.de/"
+      ]
+    }
+  ]
+}

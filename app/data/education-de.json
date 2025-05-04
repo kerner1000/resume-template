@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "title": "M.Sc. Angewandte Informatik, Universität München",
+      "content": "Schwerpunkt auf Softwareentwicklung, Datenanalyse und Cloud-Architekturen.",
+      "date": {
+        "start": "2017",
+        "end": "2019"
+      },
+      "skills": [
+        "Python",
+        "Datenbanken",
+        "Cloud Technologien",
+        "Software Engineering"
+      ],
+      "web": [
+        "https://www.uni-muenchen.de/"
+      ]
+    },
+    {
+      "title": "B.Sc. Informatik, Universität Bremen",
+      "content": "Abschlussprojekt zur Entwicklung einer webbasierten Plattform zur Datenvisualisierung.",
+      "date": {
+        "start": "2013",
+        "end": "2017"
+      },
+      "skills": [
+        "Java",
+        "JavaScript",
+        "Agile Methoden"
+      ],
+      "web": [
+        "https://www.uni-bremen.de/"
+      ]
+    }
+  ]
+}
