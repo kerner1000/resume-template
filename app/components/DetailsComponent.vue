@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import {useConfig} from "~~/stores/config";
+
+const configStore = useConfig()
+await configStore.loadData()
 
 </script>
 
@@ -37,7 +41,8 @@
           />
 
           <div>
-            <span class="block ">myMail@mail.com</span>
+            <span class="block ">{{ configStore.email }}
+</span>
           </div>
         </li>
         <li class="flex items-center gap-3">
