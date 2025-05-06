@@ -41,8 +41,12 @@ await configStore.loadData()
           />
 
           <div>
-            <span class="block ">{{ configStore.email }}
-</span>
+            <a
+                :href="`mailto:${configStore.email}`"
+                class="block cursor-pointer hover:underline transition duration-200 transform origin-left
+hover:scale-105"
+            >{{ configStore.email }}</a>
+
           </div>
         </li>
         <li class="flex items-center gap-3">

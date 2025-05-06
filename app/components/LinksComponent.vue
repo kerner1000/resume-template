@@ -12,17 +12,21 @@ import linksList from '~~/data/links.json'
       </template>
       <ul class="space-y-2">
         <li
-          v-for="(link, index) in linksList.links"
+v-for="(link, index) in linksList.links"
           :key="index"
-        >
+          class=""
+        ><div
+class="inline-block transition duration-200 transform origin-left
+hover:scale-105 hover:underline cursor-pointer hover:text-primary-500">
           <a
-            :href="link.url"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="underline hover:text-orange-500 "
+              :href="link.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class=""
           >
             {{ link.label }}
           </a>
+        </div>
         </li>
       </ul>
     </UCard>

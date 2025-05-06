@@ -15,7 +15,18 @@ import skillsList from '~~/data/skills.json'
           v-for="(skill, index) in skillsList.skills"
           :key="index"
         >
-          <UBadge class="bg-primary-400">{{ skill }}</UBadge>
+          <a
+              class=""
+              :href="`https://www.google.com/search?q=${encodeURIComponent(skill + ' software')}`"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+          <UBadge
+              class="bg-primary-400 cursor-pointer hover:underline transition duration-200 transform origin-left
+hover:scale-105 ">
+            {{ skill }}
+          </UBadge>
+        </a>
         </span>
       </div>
     </UCard>
