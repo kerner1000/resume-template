@@ -17,7 +17,6 @@ A résumé template built with [Nuxt](https://nuxt.com/docs/getting-started/intr
     ```
 8. Start the development server on:
     ```bash
-    # npm
     npm run dev
     ```
 9. Open the website at `http://localhost:3000`.
