@@ -12,6 +12,6 @@
     <div class="text-lg sm:text-xl uppercase p-1">
       {{ $t('name') }}
     </div>
-    <ContactDetails />
+    <ContactDetailsComponent />
   </div>
 </template>

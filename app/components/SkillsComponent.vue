@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import skillsList from '@/data/skills.json'
+import skillsList from '~~/data/skills.json'
 </script>
 
 <template>

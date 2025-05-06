@@ -4,10 +4,10 @@
 
 <template>
   <div class="gap-2">
-    <Details class="mb-4" />
-    <Links class="mb-4" />
-    <Skills class="mb-4" />
-    <Languages class="mb-4" />
+    <DetailsComponent class="mb-4" />
+    <LinksComponent class="mb-4" />
+    <SkillsComponent class="mb-4" />
+    <LanguagesComponent class="mb-4" />
   </div>
 </template>
 

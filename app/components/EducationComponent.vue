@@ -17,10 +17,10 @@ const { locale } = useI18n()
 const items = reactive({ items: Array<EduItem>() })
 const loadCvItems = async () => {
   if (locale.value === 'de') {
-    const data = await import('@/data/education-de.json')
+    const data = await import('~~/data/education-de.json')
     items.items = data.default.items
   } else {
-    const data = await import('@/data/education-en.json')
+    const data = await import('~~/data/education-en.json')
     items.items = data.default.items
   }
 }
@@ -33,7 +33,7 @@ loadCvItems()
 
 <template>
   <div>
-    <CvTimeline
+    <TimelineComponent
       :items="items.items"
       :title="$t('education')"
       :highlight-first-current="false"

@@ -68,7 +68,7 @@ const props = defineProps<{
         <div class="pb-1">
           {{ item.content }}
         </div>
-        <SkillBadges
+        <SkillBadgesComponent
           :skills="item.skills"
           class="pb-1"
         />

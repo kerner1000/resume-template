@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import linksList from '@/data/links.json'
+import linksList from '~~/data/links.json'
 </script>
 
 <template>
