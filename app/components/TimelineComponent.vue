@@ -29,7 +29,7 @@ const props = defineProps<{
       <li
         v-for="(item, index) in items"
         :key="index"
-        class="sm:ms-12"
+        class="sm:ms-12 break-inside-avoid"
       >
         <div
           class="sm:absolute sm:flex sm:flex-col sm:w-22 sm:h-20 sm:-start-12 overflow-hidden"

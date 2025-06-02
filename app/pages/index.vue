@@ -18,10 +18,10 @@
         <ProfileComponent class="m-4" />
         <EmploymentHistoryComponent class="m-4" />
         <EducationComponent
-          class="m-4 print:break-before-page"
+          class="m-4"
         />
         <FurtherProjectsComponent class="m-4" />
-        <CertificatesComponent class="m-4 print:break-before-page" />
+        <CertificatesComponent class="m-4" />
       </div>
     </div>
   </div>
